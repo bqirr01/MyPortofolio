@@ -121,7 +121,7 @@ body { background: var(--bg-purple); }
 .sidebar,
 article {
   background: var(--eerie-black-2);
-  border: 1px solid var(--jet);
+  border: 1px solid var(--cyberpunk);
   border-radius: 20px;
   padding: 15px;
   box-shadow: var(--shadow-1);
@@ -131,7 +131,7 @@ article {
 .separator {
   width: 100%;
   height: 1px;
-  background: var(--jet);
+  background: var(--cyberpunk);
   margin: 16px 0;
 }
 
@@ -214,7 +214,7 @@ article.active {
 }
 
 .has-scrollbar::-webkit-scrollbar-track {
-  background: var(--onyx);
+  background: var(--cyberpunk);
   border-radius: 5px;
 }
 
@@ -290,7 +290,7 @@ main {
 
 .info-content .title {
   color: var(--white-1);
-  background: var(--onyx);
+  background: var(--jet);
   font-size: var(--fs-8);
   font-weight: var(--fw-300);
   width: max-content;
@@ -403,9 +403,9 @@ main {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: hsla(240, 1%, 17%, 0.75);
+  background: hsla(300, 24%, 33%, 0.75);
   backdrop-filter: blur(10px);
-  border: 1px solid var(--jet);
+  border: 1px solid var(--cyberpunk);
   border-radius: 12px 12px 0 0;
   box-shadow: var(--shadow-2);
   z-index: 5;
